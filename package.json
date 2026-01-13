@@ -1,6 +1,6 @@
 {
   "name": "crudops",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "API til bruk i Operasjonell frontendutvikling ved Gokstad Akademiet",
   "homepage": "https://github.com/vegarcodes/crudops#readme",
   "bugs": {
@@ -15,7 +15,6 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "dependencies": {
