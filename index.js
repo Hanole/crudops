@@ -47,22 +47,30 @@ server.use((request, response, next) => {
   }
 });
 
-/* Middleware: dersom det er en POST-request, sett createdAt til riktig tid på server */
+/* Middleware: dersom det er en POST-request, sett created og updated i objektet som lagres. */
 server.use((request, response, next) => {
   if (request.method === "POST") {
-    const timestamp = new Date().toISOString()
-    request.body.createdAt = timestamp;
-    request.body.updatedAt = timestamp;
+    const timestamp = new Date().toISOString();
+    request.body.created = timestamp;
+    request.body.updated = timestamp;
   }
   next();
 });
 
-/* Middleware: dersom det er en PUT- eller PATCH-request, sett updatedAt til riktig tid på server */
+/* Middleware: dersom det er en PUT- eller PATCH-request, sett updated i objektet som lagres. */
 server.use((request, response, next) => {
   if (request.method === "PUT" || request.method === "PATCH" ) {
-    request.body.updatedAt = new Date().toISOString();
+    request.body.updated = new Date().toISOString();
   }
   next();
+});
+
+/* Endepunkt: Dersom /reset kalles, skal databasen tilbakestilles. Overskriver innholdet i databasen med innholdet som ligger i template. */
+server.post("/reset", (request, response) => {
+  console.log("Reset av databasen forespurt — gjenoppretter fra template.");
+  const resetData = JSON.parse(fs.readFileSync(`./templates/${process.env.TEMPLATE}`));
+  router.db.setState(resetData);
+  response.status(200).send();
 });
 
 server.use(router);
