@@ -12,7 +12,7 @@
   "rooms": [
     {
       "id": 1,
-      "name": "Dobbeltrom med sjøutsikt",
+      "name": "Dobbeltrom med sjøutsikt på Sørenga",
       "pricePrNight": 1200,
       "description": "Romslig dobbeltrom med utsikt mot havet",
       "features": [
@@ -37,7 +37,7 @@
     },
     {
       "id": 2,
-      "name": "Trippelrom med wifi",
+      "name": "Tremannsrom på Tøyen",
       "pricePrNight": 1800,
       "description": "Rom for tre personer",
       "features": [
@@ -62,7 +62,7 @@
     },
     {
       "id": 3,
-      "name": "Dobbeltrom med TV og hundebur",
+      "name": "Dobbeltrom i Gamle Oslo, med hundebur",
       "pricePrNight": 1600,
       "description": "Tremanns rom med fibernett",
       "features": [
