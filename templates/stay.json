@@ -10,16 +10,19 @@
     }
   ],
   "rooms": [
-    {
+      {
       "id": 1,
       "name": "Dobbeltrom med sjøutsikt på Sørenga",
       "pricePrNight": 1200,
-      "description": "Romslig dobbeltrom med utsikt mot havet",
+      "description": "Lyst og romslig dobbeltrom med utsikt mot Oslofjorden og frokost inkludert.",
+      "imageUrl": "https://images.pexels.com/photos/29702284/pexels-photo-29702284.jpeg",
       "features": [
         "Dobbeltseng",
         "Eget bad",
         "Frokost inkludert",
-        "Sjøutsikt"
+        "Sjøutsikt",
+        "Balkong",
+        "TV"
       ],
       "maxGuests": 2,
       "reviews": [
@@ -34,12 +37,13 @@
       ],
       "created": "2025-09-02T09:00:00",
       "updated": "2025-09-12T16:45:00"
-    },
-    {
+      },
+      {
       "id": 2,
       "name": "Tremannsrom på Tøyen",
       "pricePrNight": 1800,
-      "description": "Rom for tre personer",
+      "description": "Praktisk tremannsrom med god plass, eget bad og rask WiFi.",
+      "imageUrl": "https://images.pexels.com/photos/36776952/pexels-photo-36776952.jpeg",
       "features": [
         "Enkeltseng",
         "Eget bad",
@@ -51,26 +55,27 @@
         {
           "id": 2,
           "userId": 1,
-          "rating": 5,
-          "comment": "Veldig hyggelig opphold og god frokost!",
+          "rating": 4,
+          "comment": "God plass og enkel innsjekking. Passet fint for tre personer.",
           "created": "2026-01-15T10:00:00",
           "updated": "2026-01-15T10:00:00"
         }
       ],
       "created": "2025-09-02T09:00:00",
       "updated": "2025-09-12T16:45:00"
-    },
-    {
+      },
+      {
       "id": 3,
-      "name": "Dobbeltrom i Gamle Oslo, med hundebur",
+      "name": "Dyrevennlig dobbeltrom i Gamle Oslo",
       "pricePrNight": 1600,
-      "description": "Tremanns rom med fibernett",
+      "description": "Komfortabelt dobbeltrom med eget bad, TV og WiFi, tilpasset gjester som reiser med hund.",
+      "imageUrl": "https://images.pexels.com/photos/30722813/pexels-photo-30722813.jpeg",
       "features": [
         "Dobbeltseng",
         "Eget bad",
         "Frokost inkludert",
         "WiFi",
-        "Pets allowed",
+        "Kjæledyr tillatt",
         "TV"
       ],
       "maxGuests": 2,
@@ -79,13 +84,279 @@
           "id": 3,
           "userId": 1,
           "rating": 5,
-          "comment": "Veldig hyggelig opphold og god frokost!",
+          "comment": "Veldig praktisk rom for oss som reiste med hund, og alt fungerte fint.",
           "created": "2026-01-15T10:00:00",
           "updated": "2026-01-15T10:00:00"
         }
       ],
       "created": "2025-09-02T09:00:00",
       "updated": "2025-09-12T16:45:00"
+      },
+      {
+      "id": 4,
+      "name": "Enkeltrom ved Barcode i Bjørvika",
+      "pricePrNight": 1100,
+      "description": "Praktisk enkeltrom med kort vei til sentrum og Oslo S",
+      "imageUrl": "https://images.pexels.com/photos/34989773/pexels-photo-34989773.jpeg",
+      "features": [
+        "Enkeltseng",
+        "Eget bad",
+        "WiFi",
+        "TV"
+      ],
+      "maxGuests": 1,
+      "reviews": [
+        {
+          "id": 4,
+          "userId": 1,
+          "rating": 4,
+          "comment": "Rent og sentralt, perfekt for en kort storbytur.",
+          "created": "2026-01-18T09:30:00",
+          "updated": "2026-01-18T09:30:00"
+        }
+      ],
+      "created": "2025-09-05T08:30:00",
+      "updated": "2025-09-14T14:20:00"
+    },
+    {
+      "id": 5,
+      "name": "Dobbeltrom med balkong på Grünerløkka",
+      "pricePrNight": 1750,
+      "description": "Lyst dobbeltrom med privat balkong og nærhet til kaféer",
+      "imageUrl": "https://images.pexels.com/photos/14286298/pexels-photo-14286298.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "WiFi",
+        "Balkong",
+        "Frokost inkludert"
+      ],
+      "maxGuests": 2,
+      "reviews": [
+        {
+          "id": 5,
+          "userId": 1,
+          "rating": 5,
+          "comment": "Veldig koselig rom og super beliggenhet.",
+          "created": "2026-01-20T11:15:00",
+          "updated": "2026-01-20T11:15:00"
+        }
+      ],
+      "created": "2025-09-06T10:00:00",
+      "updated": "2025-09-15T15:45:00"
+    },
+    {
+      "id": 6,
+      "name": "Familierom på Kampen med utsikt",
+      "pricePrNight": 2200,
+      "description": "Romslig familierom i rolig område med fin utsikt over byen",
+      "imageUrl": "https://images.pexels.com/photos/31767049/pexels-photo-31767049.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Sovesofa",
+        "Eget bad",
+        "WiFi",
+        "TV",
+        "Frokost inkludert"
+      ],
+      "maxGuests": 4,
+      "reviews": [
+        {
+          "id": 6,
+          "userId": 1,
+          "rating": 5,
+          "comment": "Passet perfekt for familien vår, god plass og rolig område.",
+          "created": "2026-01-22T13:00:00",
+          "updated": "2026-01-22T13:00:00"
+        }
+      ],
+      "created": "2025-09-07T09:20:00",
+      "updated": "2025-09-16T12:10:00"
+    },
+    {
+      "id": 7,
+      "name": "Dobbeltrom nær Botanisk hage på Tøyen",
+      "pricePrNight": 1450,
+      "description": "Komfortabelt dobbeltrom med gangavstand til Botanisk hage og T-bane",
+      "imageUrl": "https://images.pexels.com/photos/29252367/pexels-photo-29252367.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "WiFi",
+        "Frokost inkludert"
+      ],
+      "maxGuests": 2,
+      "reviews": [
+        {
+          "id": 7,
+          "userId": 1,
+          "rating": 4,
+          "comment": "God beliggenhet og enkelt å komme seg rundt i byen.",
+          "created": "2026-01-24T08:45:00",
+          "updated": "2026-01-24T08:45:00"
+        }
+      ],
+      "created": "2025-09-08T11:10:00",
+      "updated": "2025-09-17T16:30:00"
+    },
+    {
+      "id": 8,
+      "name": "Studio-rom i Gamlebyen med kjøkkenkrok",
+      "pricePrNight": 1900,
+      "description": "Moderne studio-rom med liten kjøkkenkrok og nærhet til middelalderparken",
+      "imageUrl": "https://images.pexels.com/photos/28148284/pexels-photo-28148284.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "WiFi",
+        "Kjøkkenkrok",
+        "TV"
+      ],
+      "maxGuests": 2,
+      "reviews": [
+        {
+          "id": 8,
+          "userId": 1,
+          "rating": 5,
+          "comment": "Stilig rom og veldig praktisk med kjøkkenkrok.",
+          "created": "2026-01-26T12:20:00",
+          "updated": "2026-01-26T12:20:00"
+        }
+      ],
+      "created": "2025-09-09T08:50:00",
+      "updated": "2025-09-18T13:40:00"
+    },
+    {
+      "id": 9,
+      "name": "Tremannsrom ved Akerselva",
+      "pricePrNight": 1700,
+      "description": "Trivelig rom for tre personer med kort vei til sentrum og turmuligheter",
+      "imageUrl": "https://images.pexels.com/photos/260553/pexels-photo-260553.jpeg",
+      "features": [
+        "Enkeltseng",
+        "Sovesofa",
+        "Eget bad",
+        "WiFi",
+        "TV"
+      ],
+      "maxGuests": 3,
+      "reviews": [
+        {
+          "id": 9,
+          "userId": 1,
+          "rating": 4,
+          "comment": "Bra verdi for pengene og hyggelig område.",
+          "created": "2026-01-28T10:40:00",
+          "updated": "2026-01-28T10:40:00"
+        }
+      ],
+      "created": "2025-09-10T09:40:00",
+      "updated": "2025-09-19T17:15:00"
+    },
+    {
+      "id": 10,
+      "name": "Dobbeltrom med terrasse på Ekeberg",
+      "pricePrNight": 2100,
+      "description": "Stille dobbeltrom med privat terrasse og flott utsyn mot fjorden",
+      "imageUrl": "https://images.pexels.com/photos/28054891/pexels-photo-28054891.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "Frokost inkludert",
+        "Balkong",
+        "Sjøutsikt"
+      ],
+      "maxGuests": 2,
+      "reviews": [
+        {
+          "id": 10,
+          "userId": 1,
+          "rating": 5,
+          "comment": "Fantastisk utsikt og veldig behagelig opphold.",
+          "created": "2026-01-30T14:10:00",
+          "updated": "2026-01-30T14:10:00"
+        }
+      ],
+      "created": "2025-09-11T10:25:00",
+      "updated": "2025-09-20T18:00:00"
+    },
+    {
+      "id": 11,
+      "name": "Firemannsrom i Majorstuen",
+      "pricePrNight": 2500,
+      "description": "Stort rom for familie eller vennegjeng med sentral beliggenhet",
+      "imageUrl": "https://images.pexels.com/photos/13569906/pexels-photo-13569906.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "WiFi",
+        "Frokost inkludert"
+      ],
+      "maxGuests": 4,
+      "reviews": [
+        {
+          "id": 11,
+          "userId": 1,
+          "rating": 4,
+          "comment": "God plass og enkelt å komme seg rundt med kollektivtransport.",
+          "created": "2026-02-01T09:55:00",
+          "updated": "2026-02-01T09:55:00"
+        }
+      ],
+      "created": "2025-09-12T07:45:00",
+      "updated": "2025-09-21T15:25:00"
+    },
+    {
+      "id": 12,
+      "name": "Koselig enkeltrom ved St. Hanshaugen",
+      "pricePrNight": 950,
+      "description": "Lite og komfortabelt enkeltrom i rolig gate nær park og kaféer",
+      "imageUrl": "https://images.pexels.com/photos/35236646/pexels-photo-35236646.jpeg",
+      "features": [
+        "Enkeltseng",
+        "Eget bad",
+        "WiFi"
+      ],
+      "maxGuests": 1,
+      "reviews": [
+        {
+          "id": 12,
+          "userId": 1,
+          "rating": 4,
+          "comment": "Enkelt, rent og veldig fint område å bo i.",
+          "created": "2026-02-03T08:10:00",
+          "updated": "2026-02-03T08:10:00"
+        }
+      ],
+      "created": "2025-09-13T09:15:00",
+      "updated": "2025-09-22T11:50:00"
+    },
+    {
+      "id": 13,
+      "name": "Dobbeltrom med hund tillatt på Grønland",
+      "pricePrNight": 1550,
+      "description": "Sentralt dobbeltrom med god plass og fasiliteter for reisende med hund",
+      "imageUrl": "https://images.pexels.com/photos/9990136/pexels-photo-9990136.jpeg",
+      "features": [
+        "Dobbeltseng",
+        "Eget bad",
+        "WiFi",
+        "Kjæledyr tillatt",
+        "TV"
+      ],
+      "maxGuests": 2,
+      "reviews": [
+        {
+          "id": 13,
+          "userId": 1,
+          "rating": 5,
+          "comment": "Perfekt for oss som reiser med hund, og veldig sentralt.",
+          "created": "2026-02-05T12:35:00",
+          "updated": "2026-02-05T12:35:00"
+        }
+      ],
+      "created": "2025-09-14T08:05:00",
+      "updated": "2025-09-23T14:05:00"
     }
   ],
   "bookings": [
@@ -99,6 +370,14 @@
       "message": "Ønsker rolig rom med tidlig innsjekk",
       "created": "2025-12-30T12:15:00",
       "updated": "2025-12-30T12:15:00"
+    }
+  ],
+  "savedSearches": [
+    {
+      "id": 1,
+      "guests": 2,
+      "features": ["WiFi"],
+      "maxPrice": 1800
     }
   ]
 }
